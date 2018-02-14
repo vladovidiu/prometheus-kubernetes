@@ -5,7 +5,7 @@ metadata:
   labels:
     alertmanager: main
 spec:
-  replicas: 3
+  replicas: 1
   version: ALERTMANAGER_VERSION
   externalUrl: ALERTMANAGER_EXTERNAL_URL
   nodeSelector:
